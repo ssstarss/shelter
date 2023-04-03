@@ -3,196 +3,200 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content = "width=device-width, initial-scale=1.0">
     <title>Pets Shop</title>
-    <link rel="icon" href="favico.png" type="image/x-icon">
-    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href = "./src/images/favico.png" type="image/x-icon">
+    <link rel = "stylesheet" href = "styles.css">
+    <link rel = "stylesheet" href = "./src/page-1/header.css">
+    <link rel = "stylesheet" href = "./src/page-1/start-screen.css">
+    <link rel = "stylesheet" href = "./src/page-1/about.css">
+    <link rel = "stylesheet" href = "./src/page-1/pets.css">
+    <link rel = "stylesheet" href = "./src/page-1/help.css">
+    <link rel = "stylesheet" href = "./src/page-1/donation.css">
+    <link rel = "stylesheet" href = "./src/page-1/footer.css">
     <style>
       html { scroll-behavior: smooth; }
    </style>
 </head>
 <body>
-    <div class = "main1280" >
-        <div class = "start-screen">
-            <div class = "start-screen-gradient-background"> </div>
-            <div class = "start-screen-background"></div>
+    <section class = start-screen>
+        <header>
+            <div class = "header-wrap">
+              <a class = logo href = "#">
+                    <h1 class = "logo-title">Cozy House</h1>
+                    <p class = "logo-subtitle">Shelter for pets in Boston</p>
+                </a>
+                    <ul class = "nav-main">
+                        <li class = "nav-main">
+                            <a class = "paragraf-1"  id = "main-chosen" href = "#about">About the shelter</a>
+                        </li>
+                        <li>
+                            <a class = "paragraf-1" href = "../shelter/OurPets.html">Our pets</a>
+                        </li>
+                        <li>
+                            <a class = "paragraf-1" href = "#help">Help the shelter</a>
+                        </li>
+                        <li><a class = "paragraf-1" href = "#contacts">Contacts</a>
+                        </li>
+                    </ul>
+            </div>
+        </header>
             <div class = "start-screen-content">
-                <img class = "start-screen-puppy" src = "start-screen-puppy.png" alt = "puppy">
-                <div class = "content">
-                    <h2 class = "heading">Not onle people need a house</h2>
-                    <div class = "sub-heading">We offer to give a chance to a little and nice puppy 
-                        with an extremely wide and open heart. He or she will love you more than anybody
-                         else in the world, you will see!
+                    <div class = "start-screen-content-content">
+                        <h1>Not only people need a house</h1>
+                         <p class = "paragraf-1">We offer to give a chance to a little and nice puppy with an 
+                            extremely wide and open heart. He or she will love you more than anybody else in
+                            the world, you will see!</p>
+                        <form action="#" class = "make-a-friend">
+                        <button class = "button-primary">Make a friend</button>
+                        </form>
                     </div>
-                    <button class = "button-primary">Make a friend</button>
-                </div>
+                <img class = "start-screen-puppy" src = "../shelter/src/images/start-screen-puppy.png" alt = "puppy">
             </div>
-            
-        </div>
-        <div class = "header">
-            <div class = "logo">
-                <div class = "logo-title">Cozy House</div>
-                <div class  = "logo-subtitle">Shelter for Pets in Boston</div>
-            </div>
-            <div class = "nav-menu">
-                <a class = "our-pets" href="OurPets.html">Our pets</a>
-                <a class = "help-the-shelter" href = "#help">Help the shelter</a>
-                <a class = "contacts" href="#footer">Contacts</a> 
-                <a class = "about-the-shelter" href="">About the shelter</a>
-            </div>
-        </div>
-        <div class = "about">
+    </section>
+        <section class = "about" id = "about">
             <div class = "about-content">
-                <img class = "about-pets-pic" src = "about-pets.png" alt = "About pets">
-                <div class = "about-content-content">
-                    <div class = "about-content-heading">About the shelter “Cozy House”</div>
-                    <div class = "about-content-subheading1">Currently we have 121 dogs and 342 cats 
-                        on our hands and statistics show that only 20% of them will find a family.
-                         The others will continue to live with us and will be waiting for a lucky
-                          chance to become dearly loved.
+                <img class = "about-pets" src = "../shelter/src/images/about-pets.png" alt = "about pets">
+                <div class = about-content-content>
+                    <h3 class = about-heading>About the shelter<br>“Cozy House”</h3>
+                    <div class = "about-subheading-1">
+                        <p class = "paragraf-1">Currently we have 121 dogs and 342 cats on our hands and statistics
+                            show that only 20% of them will find a family. The others will continue to live with us
+                            and will be waiting for a lucky chance to become dearly loved.</p>
                     </div>
-                    <div class = "about-content-subheading2">We feed our wards with the best food and 
-                        make sure that they do not get sick, feel comfortable (including psychologically)
-                        and well. We are supported by 87 volunteers and 28 employees of various skill levels.
-                        About 12% of the animals are taken by the shelter staff. Taking care of the animals, 
-                        they become attached to the pets and would hardly ever leave them alone.
+                    <div class = "about-subheading-2">
+                        <p class = "paragraf-1">We feed our wards with the best food and make sure that they do not 
+                            get sick, feel comfortable (including psychologically) and well. We are supported by 87 
+                            volunteers and 28 employees of various skill levels. About 12% of the animals are taken 
+                            by the shelter staff. Taking care of the animals, they become attached to the pets and would 
+                            hardly ever leave them alone.</p>
                     </div>
                 </div>
-            </div>
         </div>
-        <div class = "pets">
-            <a name ="our-pets"></a>
+        </section>
+        <section class = "pets" id = "our-pets">
             <div class = "pets-content">
-                <div class = "pets-content-heading">Our friends who are looking for a house</div>
-                <div class = button-arrow1>
-                    <div class = "arrow"></div>
+                <h3 class = "pets-heading">Our friends who<br>are looking for a house</h3>
+                <div class = "pets-slider">
+                    <button class = "button-arrow">&#8592;</button>
+                    <div class = "pets-card">
+                        <img  class = "pets-img" src = "src/images/pets-katrine.png" alt = "Katrine" >
+                        <h4>Katrine</h4>
+                        <button class = "button-secondary">Learn more</button>
+                    </div>
+                    <div class = "pets-card">
+                        <img  class = "pets-img" src = "src/images/pets-jennifer.png" alt = "Jenny" >
+                        <h4>Jennifer</h4>
+                        <button class = "button-secondary">Learn more</button>
+                    </div>
+                    <div class = "pets-card">
+                        <img  class = "pets-img" src = "src/images/pets-woody.png" alt = "Woody">
+                        <h4>Woody</h4>
+                        <button class = "button-secondary">Learn more</button>
+                    </div>
+                    <button class = "button-arrow">&#8592;</button>
                 </div>
-                <div class = "slider">
-                      
-                        <div class = button-arrow2>
-                            <div class = "arrow"></div>
-                        </div> 
-                        <div class = "card1">
-                            <div class = "pets-card-button-secondary">
-                              <button class = "pets-card-button-primary">Learn more</button>
-                            </div>
-                            <div class = petname>Katrine</div> 
-                            <img class = "card-picture" src = "pets-katrine.png" alt = "Katrine">
-                        </div>
-                        <div class = "card2">
-                            <div class = "pets-card-button-secondary">
-                              <button class = "pets-card-button-primary">Learn more</button>
-                            </div>
-                            <div class = petname>Jennifer</div> 
-                            <img class = "card-picture" src = "pets-jennifer.png" alt = "Jennifer">
-                        </div>
-                        <div class = "card3">
-                            <div class = "pets-card-button-secondary">
-                              <button class = "pets-card-button-primary">Learn more</button>
-                            </div>
-                            <div class = petname>Woody</div> 
-                            <img class = "card-picture" src = "pets-woody.png" alt = "Woody">
-                        </div>
-                      </div>
-                       <a href = "ourpets.html"> <button class = "slider-button">Get to know the rest</button></a>  
-                    
+                <div class = "button-arrows-320">
+                    <button class = "button-arrow-320">&#8592;</button>
+                    <button class = "button-arrow-320">&#8592;</button>
+                </div>
+                <form action = "#">
+                    <button class = "button-primary">Get to know the rest</button>
+                </form>
             </div>
-        </div>
-        <div class = "help">
-            <a name ="help"></a>
+        </section>
+        <section class = "help" id = "help">
             <div class = "help-content">
-                <div class = "help-content-heading">How you can help our shelter</div>
-                <div class = "list">
-                    <div class = "pet-food">
-                        <p class= "list-text">Pet food</p>
-                        <img class = "pet-icon" src = "pet-food.svg" alt = "petfood">
+                <h3 class = "help-heading">How you can help our shelter</h3>
+                <div class = "help-list">
+                    <div class = "card">
+                        <img class = "list-img" src = "src/images/pet-food.svg" alt = "food">
+                        <h4 class = "help-list-text" >Food</h4>
                     </div>
-                    <div class = "pet-transportation">
-                        <img class = "pet-icon" src = "pet-transportation.svg" alt = "Transportation">
-                        <p class = "list-text">Transportation</p>
+                    <div class = "card">
+                        <img class = "list-img" src = "src/images/pet-transportation.svg" alt = "transport">
+                        <h4 class = "help-list-text" >Transportation</h4>
                     </div>
-                    <div class = "pet-toys">
-                        <img class = "pet-icon" src = "pet-toys.svg" alt = "Toys">
-                        <p class = "list-text">Toys</p>
-                    </div> 
-                    <div class = "pet-cups">
-                        <img class = "pet-icon" src = "pet-cups.svg" alt = "Cups">
-                        <p class = "list-text">Toys</p>
-                    </div>    
-                    <div class = "pet-shampoos">
-                        <img class = "pet-icon" src = "pets-shampoos.svg" alt = "shampoos">
-                        <p class = "list-text">Shampoos</p>
-                    </div> 
-                </div>
-                <div class = "list2">
-                    <div class = "pet-vitamins">
-                        <img class = "pet-icon" src = "pets-vitamins.svg" alt = "Vitamins">
-                        <p class = "list-text">Vitamins</p>
-                    </div> 
-                    <div class = "pet-medicines">
-                        <img class = "pet-icon" src = "pets-medicines.svg" alt = "Medicines">
-                        <p class = "list-text">Medicines</p>
+                    <div class = "card">
+                        <img class = "list-img" src = "src/images/pet-toys.svg" alt = "Toys">
+                        <h4 class = "help-list-text" >Toys</h4>
                     </div>
-                    <div class = "pet-collars">
-                        <img class = "pet-icon" src = "pets-collars.svg" alt = "Collars">
-                        <p class = "list-text">Collars / leashes</p>
-                    </div> 
-                    <div class = "pet-sleeping">
-                        <img class = "pet-icon" src = "pets-sleeping.svg" alt = "Sleeping">
-                        <p class = "list-text">Sleeping areas</p>
-                    </div> 
-                </div>
-            </div>
-        </div>
-        <div class = "donation">
-            <div class = "donation-content">
-                <img class = "donation-dog" src="donation-dog.png" alt = "Dog">
-                <div class = "donation-content-content">
-                    <div class = "donation-heading">You can also make a donation</div>
-                    <div class = "donation-subheading">Name of the bank / Type of bank account</div>
-                    <div class ="credit-card">
-                        <img class = "credit-card-icon" src = "credit-card.svg" alt = "Credit Card">
-                        <p class = "credit-card-text">8380 2880 8028 8791 7435</p>
-                                             
+                    <div class = "card">
+                        <img class = "list-img" src = "src/images/pet-cups.svg" alt = "Bowls">
+                        <h4 class = "help-list-text" >Bowls and cups</h4>
+                    </div>
+                    <div class = "card">
+                        <img class = "list-img" src = "src/images/pets-shampoos.svg" alt = "Shampoos">
+                        <h4 class = "help-list-text" >Shampoos</h4>
+                    </div>
+                    <div class = "card">
+                        <img class = "list-img" src = "src/images/pets-vitamins.svg" alt = "Vitamins">
+                        <h4 class = "help-list-text" >Vitamins</h4>
+                    </div>
+                    <div class = "card">
+                        <img class = "list-img" src = "src/images/pets-medicines.svg " alt = "Midicines">
+                        <h4 class = "help-list-text" >Medicines</h4>
+                    </div>
+                    <div class = "card">
+                        <img class = "list-img" src = "src/images/pets-collars.svg" alt = "Collars">
+                        <h4 class = "help-list-text" >Collars/leashes</h4>
+                    </div>
+                    <div class = "card">
+                        <img class = "list-img" src = "src/images/pets-sleeping.svg" alt = "Sleeping">
+                        <h4 class = "help-list-text" >Sleeping areas</h4>
+                    </div>
 
-                    </div>
-                    <p class = "donation-legal" >Legal information and lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor 
-                        et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-                    </div>
-                   
-            </div>
-        </div>
-        <div class= "footer">
-            <a name = "footer"></a>
-            <div class = "footer-gradient-background"></div>
-            <div class = "footer-content">
-                <div class = "footer-contacts">
-                    <div class = "footer-title">For questions and suggestions</div>
-                    <div class = "footer-mail">
-                        <img class="mail-icon" src ="mail-icon.png" alt = "mail">
-                        <div class = "footer-mail-text">email@shelter.com</div>
-                    </div>
-                    <div class = "footer-phone">
-                        <img class="phone-icon" src ="phone-icon.png" alt = "mail">
-                        <div class = "footer-phone-text">+13 674 567 75 54</div>
-                    </div>
                 </div>
-                <div class = "footer-location">
-                    <div class = "footer-location-title">We are waiting for your visit</div>
-                    <div class = "footer-mail">
-                        <img class="mail-icon" src ="geo-icon.png" alt = "mail">
-                        <div class = "footer-location-text">1 Central Street, Boston (entrance from the store)</div>
-                    </div>
-                    <div class = "footer-phone">
-                        <img class="phone-icon" src ="geo-icon.png" alt = "mail">
-                        <div class = "footer-location-text">18 South Park, London</div>
-                    </div>
-                </div>
-                <img class = "footer-puppy" src = footer-puppy.png alt = "puppy">
             </div>
+        </section>
+        <section class = "donation">
+            <div class = "donation-wrap">
+                <img class = "donation-img" src = "./src/images/donation-dog.png" alt = "Donations">
+                <div class = donation-content>
+                    <h3 class = "donation-heading" >You can also<br>make a donation</h3>
+                    <h5 class = "donation-bank">Name of the bank / Type of bank account</h5>
+                    <div class = "credit-card">
+                        <img class = "credit-card-icon" src = "./src/images/credit-card.svg" alt = "Donations">
+                        <h4 class="donation-card-text">8380 2880 8028 8791 7435</h4>
+                    </div>
+                    <p class = "legal-info">Legal information and lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent
+                         ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis 
+                         in faucibus.
+                   </p>
+                </div>
+            </div> 
+        </section>     
+    <footer>
+        <div class = "footer-content" id = "contacts">
+            <div class = "contacts">
+                <div class = "contacts-title">
+                    <h3 class = "contacts-title-text">For questions and suggestions</h3>    
+                </div>
+                <div class = "mail">
+                    <div class = "mail-icon"></div>
+                    <h4 class = "mail-text">email@shelter.com</h4>
+                </div>
+                <div class = "phone">
+                    <div class = "phone-icon"></div>
+                    <h4 class = "phone-text">+13 674 567 75 54</h4>
+                </div> 
+            </div>
+            <div class = "location">
+                <div class = "location-title">
+                    <h3 class = "location-title-text">We are waiting for your visit</h3>    
+                </div>
+                <div class = "boston">
+                    <div class = "geo-icon"></div>
+                    <h4 class = "boston-text">1 Central Street, Boston (entrance from the store)</h4>
+                </div>
+                <div class = "london">
+                    <div class = "geo-icon"></div>
+                    <h4 class = "london-text">18 South Park, London </h4>
+                </div> 
+            </div>
+            <img class = "footer-puppy" src = "../shelter/src/images/footer-puppy.png" alt = "Puppy">
         </div>
-    </div>
-        
+    </footer>
 </body>
 </html>

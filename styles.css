@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+body{
+   justify-items: center;
+}
+
+h1{
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+}
+
+h3{
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+}
+
+h4{
+height: 23px;
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 0.06em;
+color: #545454;
+margin: auto;
+}
+
+h5{
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 110%;
+letter-spacing: 0.06em;
+}
+
+.paragraf-1 {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+}
+
+.button-primary{
+  width: 207px;
+ height: 52px;
+ background: #F1CDB3;
+ border-radius: 100px;
+ font-family: 'Georgia';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 17px;
+ line-height: 130%;
+ letter-spacing: 0.06em;
+ color: #292929;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ border: none;
+}
+
+.button-primary:hover{
+  background: #FDDCC4;
+}
+
+.button-secondary{
+  width: 187px;
+  height: 52px;
+  border: solid;
+  border-color:#F1CDB3 ;
+  border-radius: 100px;
+  background: none;
+  margin: auto;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+}
+
+.pets-heading{
+  text-align: center;   
+  width: 400px;
+  height: 90px;
+  margin: 0;
+  color: #545454;
+}
+
+.pets-card {
+  width: 270px;
+  height: 435px;
+  background: #FAFAFA;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pets-card:hover > .button-secondary{
+   background: #F1CDB3;
+}
+
+
+
+.pets-img{
+  border-radius: 9px 9px 0px 0px;
+}
+
+
+
+
+
+
+
+
