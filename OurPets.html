@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,138 +6,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pets Shop</title>
     <link rel="icon" href="favico.png" type="image/x-icon">
-    <link rel="stylesheet" href="ourpets1280.css">
+    <link rel = "stylesheet" href = "../shelter/styles.css">
+    <link rel = "stylesheet" href = "../shelter/src/page-2/ourpets1280.css">
+    <link rel = "stylesheet" href = "../shelter/src/page-1/header1.css">
+    <link rel = "stylesheet" href = "../shelter/src/page-1/footer.css">
     <style>
     html { scroll-behavior: smooth; }
- </style>
+    </style>
 </head>
 <body>
-  <div class = "ourpets1280">
-    <div class = "header-container">
-        <div class = "header">
-            <div class = "header-logo">
-                <div class = "header-title">Cosy House</div>
-                <div class = "header-subtitle">Shelter for pets in Boston</div>
-                <div class = "nav-menu">
-                    <a class = "our-pets" href="">Our pets</a>
-                    <a class = "help-the-shelter" href = "index.html#help">Help the shelter</a>
-                    <a class = "contacts" href="#footer">Contacts</a> 
-                    <a class = "about-the-shelter" href="index.html">About the shelter</a>
+    <header class ="pets-header">
+        <div class = "header-wrap">
+            <a class = logo href = "../shelter/index.html">
+                <h1 class = "logo-title">Cozy House</h1>
+                <p class = "logo-subtitle">Shelter for pets in Boston</p>
+            </a>
+                <ul class = "pets-nav">
+                    <li>
+                        <a class = "paragraf-1" href = "../shelter/index.html#about">About the shelter</a>
+                    </li>
+                    <li>
+                        <a class = "paragraf-1" id="pets-chosen" href = "#our-pets">Our pets</a>
+                    </li>
+                    <li>
+                        <a class = "paragraf-1" href = "../shelter/index.html#help">Help the shelter</a>
+                    </li>
+                    <li><a class = "paragraf-1" href = "#contacts">Contacts</a>
+                    </li>
+                </ul>
+            
+        </div>
+    </header>
+    <main>
+        <section class = "pets" id = "our-pets">
+            <div class = "pets-content">
+                <h3 class = "pets-heading">Our friends who<br> are looking for a house</h3>
+                <div class = "pets-cards-container">
+                    <div class = "pets-card">
+                        <img  class = "pets-img" src = "../shelter/src/images/pets-katrine.png" alt = "Katrine">
+                        <h4>Katrine</h4>
+                        <button  class = "button-secondary">Learn more</button>
+                    </div>
+                    <div class = "pets-card">
+                        <img  class = "pets-img" src = "../shelter/src/images/pets-jennifer.png" alt = "Jennifer">
+                        <h4>Jennifer</h4>
+                        <button class = "button-secondary">Learn more</button>
+                    </div>
+                    <div class = "pets-card">
+                        <img  class = "pets-img" src = "../shelter/src/images/pets-woody.png" alt = "Woody">
+                        <h4>Woody</h4>
+                        <button class = "button-secondary">Learn more</button>
+                    </div>
+                    <div class = "pets-card">
+                        <img  class = "pets-img" src = "../shelter/src/images/pets-sophia.png" alt = "Sophia">
+                        <h4>Sophia</h4>
+                        <button class = "button-secondary">Learn more</button>
+                    </div>
+                    <div class = "pets-card">
+                        <img  class = "pets-img" src = "../shelter/src/images/pets-timmy.png" alt = "Timmy">
+                        <h4>Timmy</h4>
+                        <button class = "button-secondary">Learn more</button>
+                    </div>
+                    <div class = "pets-card">
+                        <img  class = "pets-img" src = "../shelter/src/images/pets-charly.png" alt = "Charly">
+                        <h4>Charly</h4>
+                        <button class = "button-secondary">Learn more</button>
+                    </div>
+                    <div class = "pets-card">
+                        <img  class = "pets-img" src = "../shelter/src/images/pets-scarlett.png" alt = "Scarlett">
+                        <h4>Scarlett</h4>
+                        <button class = "button-secondary">Learn more</button>
+                    </div>
+                    <div class = "pets-card">
+                        <img  class = "pets-img" src = "../shelter/src/images/pets-freddie.png" alt = "Freddie">
+                        <h4>Freddie</h4>
+                        <button class = "button-secondary">Learn more</button>
+                    </div>
+                </div>
+                <div class="navigation">
+                    <button class="button-paginator-inactive">&#60;&#60;</button>
+                    <button class="button-paginator-inactive">&#60;</button>
+                    <button class="button-paginator-active">1</button>
+                    <button class="button-paginator">&#62;</button>
+                    <button class="button-paginator">&#62;&#62;</button>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class = "pets">
-        <div class = "pets-content">
-            <div class = "pets-content-heading">Our friends who are looking for a house</div>
-            <div class = "pets-cards-container">
-                <div class = "card1">
-                    <div class = "pets-card-button-secondary">
-                      <button class = "pets-card-button-primary">Learn more</button>
-                    </div>
-                    <div class = petname>Katrine</div> 
-                    <img class = "card-picture" src = "pets-katrine.png" alt = "Katrine">
+        </section>
+    </main>
+    <footer>
+        <div class = "footer-content">
+            <div class = "contacts" id = "contacts">
+                <div class = "contacts-title">
+                    <h3 class = "contacts-title-text">For questions and suggestions</h3>    
                 </div>
-                <div class = "card2">
-                    <div class = "pets-card-button-secondary">
-                      <button class = "pets-card-button-primary">Learn more</button>
-                    </div>
-                    <div class = petname>Jennifer</div> 
-                    <img class = "card-picture" src = "pets-jennifer.png" alt = "Jennifer">
+                <div class = "mail">
+                    <div class = "mail-icon"></div>
+                    <h4 class = "mail-text">email@shelter.com</h4>
                 </div>
-                <div class = "card3">
-                    <div class = "pets-card-button-secondary">
-                      <button class = "pets-card-button-primary">Learn more</button>
-                    </div>
-                    <div class = petname>Woody</div> 
-                    <img class = "card-picture" src = "pets-woody.png" alt = "Woody">
-                </div>
-                <div class = "card4">
-                    <div class = "pets-card-button-secondary">
-                      <button class = "pets-card-button-primary">Learn more</button>
-                    </div>
-                    <div class = petname>Sophia</div> 
-                    <img class = "card-picture" src = "pets-sophia.png" alt = "Sophia">
-                </div>
-                <div class = "card5">
-                    <div class = "pets-card-button-secondary">
-                      <button class = "pets-card-button-primary">Learn more</button>
-                    </div>
-                    <div class = petname>Sophia</div> 
-                    <img class = "card-picture" src = "pets-timmy.png" alt = "Timmy">
-                </div>
-                <div class = "card6">
-                    <div class = "pets-card-button-secondary">
-                      <button class = "pets-card-button-primary">Learn more</button>
-                    </div>
-                    <div class = petname>Sophia</div> 
-                    <img class = "card-picture" src = "pets-charly.png" alt = "Charly">
-                </div>
-                <div class = "card7">
-                    <div class = "pets-card-button-secondary">
-                      <button class = "pets-card-button-primary">Learn more</button>
-                    </div>
-                    <div class = petname>Scarlett</div> 
-                    <img class = "card-picture" src = "pets-scarlett.png" alt = "Scarlett">
-                </div>
-                <div class = "card8">
-                    <div class = "pets-card-button-secondary">
-                      <button class = "pets-card-button-primary">Learn more</button>
-                    </div>
-                    <div class = petname>Freddie</div> 
-                    <img class = "card-picture" src = "pets-freddie.png" alt = "Freddie">
-                </div>
-
-              </div>
-              <div class = "navigation">
-                <div class = "button-paginator-grey1">
-                    <div class = "button-paginator">
-                        <div class ="button-paginator-text"><<</div>
-                    </div>
-                </div>
-                <div class = "button-paginator-grey2">
-                    <div class = "button-paginator">
-                        <div class ="button-paginator-text"><</div>
-                    </div>
-                </div>
-                <div class = "button-paginator-page">1</div>
-                <div class = "button-paginator-yellow1">>></div>
-                <div class = "button-paginator-yellow2">></div>
+                <div class = "phone">
+                     <div class = "phone-icon"></div>
+                     <h4 class = "phone-text">+13 674 567 75 54</h4>
+                </div> 
             </div>
-        </div>
-        </div>
-        <div class= "footer">
-            <a name = "footer"></a>
-            <div class = "footer-gradient-background"></div>
-            <div class = "footer-content">
-                <div class = "footer-contacts">
-                    <div class = "footer-title">For questions and suggestions</div>
-                    <div class = "footer-mail">
-                        <img class="mail-icon" src ="mail-icon.png" alt = "mail">
-                        <div class = "footer-mail-text">email@shelter.com</div>
-                    </div>
-                    <div class = "footer-phone">
-                        <img class="phone-icon" src ="phone-icon.png" alt = "mail">
-                        <div class = "footer-phone-text">+13 674 567 75 54</div>
-                    </div>
+            <div class = "location">
+                <div class = "location-title">
+                     <h3 class = "location-title-text">We are waiting for your visit</h3>    
                 </div>
-                <div class = "footer-location">
-                    <div class = "footer-location-title">We are waiting for your visit</div>
-                    <div class = "footer-mail">
-                        <img class="mail-icon" src ="geo-icon.png" alt = "mail">
-                        <div class = "footer-location-text">1 Central Street, Boston (entrance from the store)</div>
-                    </div>
-                    <div class = "footer-phone">
-                        <img class="phone-icon" src ="geo-icon.png" alt = "mail">
-                        <div class = "footer-location-text">18 South Park, London</div>
-                    </div>
+                <div class = "boston">
+                    <div class = "geo-icon"></div>
+                    <h4 class = "boston-text">1 Central Street, Boston (entrance from the store)</h4>
                 </div>
-                <img class = "footer-puppy" src = footer-puppy.png alt = "puppy">
+                <div class = "london">
+                    <div class = "geo-icon"></div>
+                    <h4 class = "london-text">18 South Park, London </h4>
+                </div> 
             </div>
+            <img class = "footer-puppy" src = "../shelter/src/images/footer-puppy.png" alt = "puppy">
         </div>
-    </div>
-
-    </div>
-  </div>
+    </footer>
 </body>
 </html>
