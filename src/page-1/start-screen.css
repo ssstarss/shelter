@@ -24,9 +24,8 @@
   .start-screen-content-content{
   width: 460px;
   height: 322px;
-  margin:auto;
+  margin:0;
   margin-top: 163px;
-  
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -80,6 +79,10 @@
   margin:0;
   display: flex;
 }
+.make-a-friend{
+  display: flex;
+  justify-content: center;
+}
 a{
   align-self: center;  
 }
@@ -121,15 +124,18 @@ a{
   text-align: center;
   justify-items: space-around;
 }
+
 .start-screen-content-content .paragraf-1{
   width: 300px;
   height: 96px;
  }
 
 .start-screen-content h1{
+  width: 300px;
   height: 64px;
   font-size: 25px;
   line-height: 130%;   
+  
 }
 
   .make-a-friend {
