@@ -126,6 +126,7 @@ links.forEach((link) => {
 function closeOnClick() {
   menu.classList.remove("open");
   menuwrap.classList.remove("open");
+  wrapmenuwrap.classList.remove("open");
   burger.classList.remove("active");
   body.classList.remove("noscroll");
 }
