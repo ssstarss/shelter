@@ -21,21 +21,30 @@
                 <h1 class = "logo-title">Cozy House</h1>
                 <p class = "logo-subtitle">Shelter for pets in Boston</p>
             </a>
-                <ul class = "pets-nav">
+            <div class = "wrap-menu-wrap" id = "wrap-menu-wrap"></div>
+            <div class = "menu-wrap" id = "menu-wrap">
+                <ul class = "pets-nav" id = "nav-main">
                     <li>
-                        <a class = "paragraf-1" href = "../shelter/index.html#about">About the shelter</a>
+                        <a href = "../shelter/index.html#about">About the shelter</a>
                     </li>
                     <li>
-                        <a class = "paragraf-1" id="pets-chosen" href = "#our-pets">Our pets</a>
+                        <a class = "pets-chosen" href = "#our-pets">Our pets</a>
                     </li>
                     <li>
-                        <a class = "paragraf-1" href = "../shelter/index.html#help">Help the shelter</a>
+                        <a href = "../shelter/index.html#help">Help the shelter</a>
                     </li>
-                    <li><a class = "paragraf-1" href = "#contacts">Contacts</a>
+                    <li><a href = "#pets-contacts">Contacts</a>
                     </li>
                 </ul>
-            
+            </div>    
+            <div id = "burger" class = "burger">
+                <span class = "bar"></span>
+                <span class = "bar"></span>
+                <span class = "bar"></span>
+            </div>
         </div>
+        </div>
+        <script src = "../shelter/src/page-1/code.js"></script>
     </header>
     <main>
         <section class = "pets" id = "our-pets">
@@ -95,7 +104,7 @@
     </main>
     <footer>
         <div class = "footer-content">
-            <div class = "contacts" id = "contacts">
+            <div class = "contacts" id = "pets-contacts">
                 <div class = "contacts-title">
                     <h3 class = "contacts-title-text">For questions and suggestions</h3>    
                 </div>
