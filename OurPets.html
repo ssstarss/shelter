@@ -1,0 +1,137 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pets Shop</title>
+    <link rel="icon" href="favico.png" type="image/x-icon">
+    <link rel = "stylesheet" href = "../shelter/styles.css">
+    <link rel = "stylesheet" href = "../shelter/src/page-2/ourpets1280.css">
+    <link rel = "stylesheet" href = "../shelter/src/page-1/header.css">
+    <link rel = "stylesheet" href = "../shelter/src/page-1/footer.css">
+    <style>
+    html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body>
+    <header class ="pets-header">
+        <div class = "header-wrap">
+            <a class = logo href = "../shelter/index.html">
+                <h1 class = "logo-title">Cozy House</h1>
+                <p class = "logo-subtitle">Shelter for pets in Boston</p>
+            </a>
+            <div class = "wrap-menu-wrap" id = "wrap-menu-wrap"></div>
+            <div class = "menu-wrap" id = "menu-wrap">
+                <ul class = "pets-nav" id = "nav-main">
+                    <li>
+                        <a href = "../shelter/index.html#about">About the shelter</a>
+                    </li>
+                    <li>
+                        <a class = "pets-chosen" href = "#our-pets">Our pets</a>
+                    </li>
+                    <li>
+                        <a href = "../shelter/index.html#help">Help the shelter</a>
+                    </li>
+                    <li><a href = "#pets-contacts">Contacts</a>
+                    </li>
+                </ul>
+            </div>    
+            <div id = "burger" class = "burger">
+                <span class = "bar"></span>
+                <span class = "bar"></span>
+                <span class = "bar"></span>
+            </div>
+        </div>
+        </div>
+        <script src = "../shelter/code.js"></script>
+    </header>
+    <main>
+        <section class = "pets" id = "our-pets">
+            <div class = "pets-content">
+                <h3 class = "pets-heading">Our friends who<br> are looking for a house</h3>
+                <div class = "pets-cards-container">
+                    <div class = "pets-card">
+                        <img  class = "pets-img" src = "../shelter/src/images/pets-katrine.png" alt = "Katrine">
+                        <h4>Katrine</h4>
+                        <button  class = "button-secondary">Learn more</button>
+                    </div>
+                    <div class = "pets-card">
+                        <img  class = "pets-img" src = "../shelter/src/images/pets-jennifer.png" alt = "Jennifer">
+                        <h4>Jennifer</h4>
+                        <button class = "button-secondary">Learn more</button>
+                    </div>
+                    <div class = "pets-card">
+                        <img  class = "pets-img" src = "../shelter/src/images/pets-woody.png" alt = "Woody">
+                        <h4>Woody</h4>
+                        <button class = "button-secondary">Learn more</button>
+                    </div>
+                    <div class = "pets-card">
+                        <img  class = "pets-img" src = "../shelter/src/images/pets-sophia.png" alt = "Sophia">
+                        <h4>Sophia</h4>
+                        <button class = "button-secondary">Learn more</button>
+                    </div>
+                    <div class = "pets-card">
+                        <img  class = "pets-img" src = "../shelter/src/images/pets-timmy.png" alt = "Timmy">
+                        <h4>Timmy</h4>
+                        <button class = "button-secondary">Learn more</button>
+                    </div>
+                    <div class = "pets-card">
+                        <img  class = "pets-img" src = "../shelter/src/images/pets-charly.png" alt = "Charly">
+                        <h4>Charly</h4>
+                        <button class = "button-secondary">Learn more</button>
+                    </div>
+                    <div class = "pets-card">
+                        <img  class = "pets-img" src = "../shelter/src/images/pets-scarlett.png" alt = "Scarlett">
+                        <h4>Scarlett</h4>
+                        <button class = "button-secondary">Learn more</button>
+                    </div>
+                    <div class = "pets-card">
+                        <img  class = "pets-img" src = "../shelter/src/images/pets-freddie.png" alt = "Freddie">
+                        <h4>Freddie</h4>
+                        <button class = "button-secondary">Learn more</button>
+                    </div>
+                </div>
+                <div class="navigation">
+                    <button class="button-paginator-inactive">&#60;&#60;</button>
+                    <button class="button-paginator-inactive">&#60;</button>
+                    <button class="button-paginator-active">1</button>
+                    <button class="button-paginator">&#62;</button>
+                    <button class="button-paginator">&#62;&#62;</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class = "footer-content">
+            <div class = "contacts" id = "pets-contacts">
+                <div class = "contacts-title">
+                    <h3 class = "contacts-title-text">For questions and suggestions</h3>    
+                </div>
+                <div class = "mail">
+                    <div class = "mail-icon"></div>
+                    <h4 class = "mail-text">email@shelter.com</h4>
+                </div>
+                <div class = "phone">
+                     <div class = "phone-icon"></div>
+                     <h4 class = "phone-text">+13 674 567 75 54</h4>
+                </div> 
+            </div>
+            <div class = "location">
+                <div class = "location-title">
+                     <h3 class = "location-title-text">We are waiting for your visit</h3>    
+                </div>
+                <div class = "boston">
+                    <div class = "geo-icon"></div>
+                    <h4 class = "boston-text">1 Central Street, Boston (entrance from the store)</h4>
+                </div>
+                <div class = "london">
+                    <div class = "geo-icon"></div>
+                    <h4 class = "london-text">18 South Park, London </h4>
+                </div> 
+            </div>
+            <img class = "footer-puppy" src = "../shelter/src/images/footer-puppy.png" alt = "puppy">
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,258 @@
+footer{
+margin: auto;
+height: 350px;
+width:  1280px;
+background-image: url(../images/start-screen-background.png);
+background: url(../images/noise_transparent@2x.png),
+ radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+align-items: center;
+}
+
+.footer-content{
+  width: 1200px;
+  height: 310px;
+  padding: 40px 40px 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts{
+  width: 278px;
+  height: 234px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: first baseline ;
+}
+
+.contacts-title{
+  width: 280px;
+  height: 90px;
+  color: #FFFFFF;
+}
+
+.mail , .phone {
+  width: 251px;
+  height: 32px;
+  color: #F1CDB3;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mail-icon, .phone-icon{
+  width: 40px;
+  height: 32px;
+}
+
+.mail-icon{
+    background-image: url(../images/mail-icon.svg)
+  }
+
+.phone-icon {
+background-image: url(../images/phone-icon.svg);
+}
+
+.mail-text{
+  width: 191px;
+  height: 23px;    
+  color: #F1CDB3;
+}
+
+.phone-text{
+width: 180px;
+height: 23px;
+color: #F1CDB3;
+}
+
+.location{
+  width: 302px;
+  height: 234px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #F1CDB3;
+  align-self: first baseline ;
+  
+}
+
+.location-title{
+  width: 270px;
+  height: 90px;
+  color: #FFFFFF;
+}
+
+.boston {
+  width: 310px;
+  height: 46px;
+  color: #F1CDB3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.boston-text{
+  width: 260px;
+  height: 46px;
+  color: #F1CDB3;
+}
+
+.london-text{
+  width: 260px;
+  height: 23px;
+  color: #F1CDB3;
+}
+
+.london {
+    width: 310px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  
+
+.geo-icon{
+  width: 22px;
+  height: 32px;
+}
+  
+.geo-icon {
+  background-image: url(../images/geo-icon.svg);
+}
+  
+
+.footer-puppy{
+  width: 300px;
+  height: 310px;    
+}
+
+@media screen and (max-width: 768px){
+footer{
+  height: 639px;
+  width:  100%;
+ } 
+
+.footer-content{
+  width: 100%;
+  height: 639px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  align-content: flex-end;
+  padding: 0;
+  row-gap: 70px;
+
+
+}
+
+.footer-puppy{
+  width: 300px;
+  height: 310px; 
+}
+}
+
+@media screen and (max-width: 320px){
+  
+  footer{
+    height: 809px;
+    width:  100%;
+   } 
+  
+  .footer-content{
+    width: 100%;
+    height: 809px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    padding: 0;
+    row-gap: 0;      
+  }
+  .contacts{
+    width: 278px;
+    height: 208px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .contacts-title{
+    width: 278px;
+    height: 64px;
+    color: #FFFFFF;
+    
+  }
+  .contacts-title-text{
+    font-size: 25px;
+    text-align: center;
+  }
+   
+  .location{
+    width: 300px;
+    height: 222px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #F1CDB3;
+    align-content: center;
+    
+  }
+  
+  .location-title{
+    width: 270px;
+    height: 64px;
+    color: #FFFFFF;
+  }
+  .location-title-text{
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .boston {
+    width: 310px;
+    height: 46px;
+    color: #F1CDB3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .boston-text{
+    width: 258px;
+    height: 46px;
+    color: #F1CDB3;
+  }
+  
+  .london-text{
+    width: 258px;
+    height: 23px;
+    color: #F1CDB3;
+  }
+  
+  .london {
+      width: 300px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    
+    }
+    
+   
+  
+  .footer-puppy{
+    width: 300px;
+    height: 310px;    
+  }
+  
+  .footer-puppy{
+    width: 260px;
+    height: 269px; 
+  }
+  }
