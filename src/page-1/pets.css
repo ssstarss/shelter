@@ -96,26 +96,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.pets-slider .pets-card:nth-child(3) {
- display: none;
+  transition: 0.8s
 }
 
 }
 
 @media screen and (max-width: 320px){
 
-  .pets{
-    width:100%;
-    height: 791px;
-    display: flex;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    background: #F6F6F6;
-  }
+.pets{
+  width:100%;
+  height: 791px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background: #F6F6F6;
+}
     
 .pets-content{
   width: 300px;
@@ -148,9 +145,6 @@
   align-items: center;
 }
   
-.pets-slider .pets-card:nth-child(4) ,  .pets-slider .pets-card:nth-child(3) {
-  display: none;
-}
 .button-arrow{
   display: none;
 }

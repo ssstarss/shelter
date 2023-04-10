@@ -26,24 +26,26 @@
                     <h1 class = "logo-title">Cozy House</h1>
                     <p class = "logo-subtitle">Shelter for pets in Boston</p>
                 </a>
-                    <ul class = "nav-main">
-                        <li class = "nav-main">
-                            <a class = "paragraf-1"  id = "main-chosen" href = "#about">About the shelter</a>
-                        </li>
-                        <li>
-                            <a class = "paragraf-1" href = "../shelter/OurPets.html">Our pets</a>
-                        </li>
-                        <li>
-                            <a class = "paragraf-1" href = "#help">Help the shelter</a>
-                        </li>
-                        <li><a class = "paragraf-1" href = "#contacts">Contacts</a>
-                        </li>
+                <div class = "wrap-menu-wrap" id = "wrap-menu-wrap"></div>
+                <div class = "menu-wrap" id = "menu-wrap">
+                    <ul class = "nav-main" id = "nav-main">
+                        <li><a class = "main-chosen" href = "#about">About the shelter</a></li>
+                        <li><a href = "../shelter/OurPets.html">Our pets</a></li>
+                        <li><a href = "#help">Help the shelter</a></li>
+                        <li><a href = "#contacts">Contacts</a></li>
                     </ul>
+                </div>    
+                
+                    <div id = "burger" class = "burger">
+                        <span class = "bar"></span>
+                        <span class = "bar"></span>
+                        <span class = "bar"></span>
+                    </div>
             </div>
         </header>
             <div class = "start-screen-content">
                     <div class = "start-screen-content-content">
-                        <h1>Not only people<br> need a house</h1>
+                        <h1>Not only people need a house</h1>
                          <p class = "paragraf-1">We offer to give a chance to a little and nice puppy with an 
                             extremely wide and open heart. He or she will love you more than anybody else in
                             the world, you will see!</p>
@@ -77,28 +79,28 @@
         <section class = "pets" id = "our-pets">
             <div class = "pets-content">
                 <h3 class = "pets-heading">Our friends who<br>are looking for a house</h3>
-                <div class = "pets-slider">
-                    <button class = "button-arrow">&#8592;</button>
+                <div class = "pets-slider" id = "pets-slider">
+                    <button class = "button-arrow" id = "button-left">&#8592;</button>
                     <div class = "pets-card">
                         <img  class = "pets-img" src = "src/images/pets-katrine.png" alt = "Katrine" >
                         <h4>Katrine</h4>
                         <button class = "button-secondary">Learn more</button>
                     </div>
-                    <div class = "pets-card">
+                    <div class = "pets-card" >
                         <img  class = "pets-img" src = "src/images/pets-jennifer.png" alt = "Jenny" >
                         <h4>Jennifer</h4>
                         <button class = "button-secondary">Learn more</button>
                     </div>
-                    <div class = "pets-card">
+                    <div class = "pets-card" >
                         <img  class = "pets-img" src = "src/images/pets-woody.png" alt = "Woody">
                         <h4>Woody</h4>
                         <button class = "button-secondary">Learn more</button>
                     </div>
-                    <button class = "button-arrow">&#8592;</button>
+                    <button class = "button-arrow" id = "button-right">&#8592;</button>
                 </div>
                 <div class = "button-arrows-320">
-                    <button class = "button-arrow-320">&#8592;</button>
-                    <button class = "button-arrow-320">&#8592;</button>
+                    <button class = "button-arrow-320" id = "button-left320">&#8592;</button>
+                    <button class = "button-arrow-320" id = "button-right320">&#8592;</button>
                 </div>
                 <form action = "#">
                     <button class = "button-primary">Get to know the rest</button>
@@ -198,5 +200,6 @@
             <img class = "footer-puppy" src = "../shelter/src/images/footer-puppy.png" alt = "Puppy">
         </div>
     </footer>
+    <script src = "../shelter/code.js"></script>
 </body>
 </html>
